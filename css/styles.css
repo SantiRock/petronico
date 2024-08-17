@@ -10,7 +10,7 @@ body {
 }
 
 a {
-    color:rgb(180, 237, 214);
+    color:rgb(155, 253, 214);
     text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ a {
     margin-top: 40px;
     font-size: 13px;
     font-style: italic;
-    color:rgb(246, 217, 235);
+    color:rgb(217, 204, 212);
 
 }
 
@@ -73,12 +73,20 @@ a {
 
 .info_w:hover {
     font-size: 40px;
-    color: white;
+    color: rgb(255, 115, 236);
 }
 
 .info_w:active {
     font-size: 40px;
-    color: white;
+    color: rgb(255, 148, 241);
+}
+
+audio {
+    margin-top: 20px;
+}
+
+.audio {
+    color: rgb(255, 136, 247);
 }
 
 @media screen and (min-width: 640px) {
