@@ -7,7 +7,7 @@ export const fragmentCode = `
   void main(void) {
     highp vec2 st = v_texcoord;
 
-    gl_FragColor = vec4(-st.x - 0.5, st.x - 0.5, -st.x -0.5, 1.);
+    gl_FragColor = vec4(-st.x - 0.5, st.x - 0.5, -st.x - 0.5, 1.);
   
   }
 `;
