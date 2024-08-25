@@ -30,12 +30,19 @@
             <div class="cc"> 
                 <img src="./images/flyer.jpeg" alt="Petronio Sessions" class="flyer" >
 
-                <audio controls>
-                    <source src="./images/petronico_astronativo.mp3" type="audio/mpeg">
-                    <source src="./images/petronico_astronativo.ogg" type="audio/ogg">
-                    xxx
-                </audio>
-                <p class="audio"><i>🔈 By Astronativo</i></p>
+                <div class="audio_player" >
+                    <audio id="audio" class="audio">
+                        <source src="./images/petronico_astronativo.mp3" type="audio/mpeg">
+                        <source src="./images/petronico_astronativo.ogg" type="audio/ogg">
+                        xxx
+                    </audio>
+                    <button id="play_pause">&#9654;</button>
+                    <input type="range" id="seek_bar" value="0"/>
+                    <span id="current_time">0:00</span> / <span id="duration">0:00</span>
+                </div>
+
+                <p class="audio_credit"><i>🔈 By Astronativo</i></p>
+
   
                 <div class="text">
                     <p>
@@ -62,6 +69,7 @@
     </main>
 
     <script src="js/canvas/canvas_01.js" type="module"></script>
+    <script src="js/player.js" type="module"></script>
 </body>
 </html>
 
