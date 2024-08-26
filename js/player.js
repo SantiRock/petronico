@@ -22,6 +22,11 @@ audio.addEventListener('timeupdate', () => {
 });
 
 // Actualizar la duración total
+
+
+
+durationSpan.textContent = formatTime(audio.duration);
+
 audio.addEventListener('loadedmetadata', () => {
     durationSpan.textContent = formatTime(audio.duration);
 });
