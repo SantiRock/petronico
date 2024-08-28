@@ -134,7 +134,8 @@ audio {
 
 #play_pause {
     background-color: transparent;
-    width: 37px;
+    width: 30px;
+    min-width: 30px;
     border: none;
     color: rgb(255, 255, 255);
     font-size: 18px;
