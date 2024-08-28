@@ -20,6 +20,7 @@ text.addEventListener('mouseout', function() {
 })*/
 
 
+
 const mediaQuery = window.matchMedia('(min-width: 640px)');
 
 function handleLargeScreen(event) {

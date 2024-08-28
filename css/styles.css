@@ -5,8 +5,13 @@ body {
     min-width: 320px;
     background-color: rgb(7, 13, 21);
     color: rgb(220, 220, 220);
+    background-color: rgb(13, 13, 13);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 a {
@@ -96,8 +101,8 @@ audio {
     justify-content: center;
     gap:5px;
     margin: auto;
-    margin-top: 20px;
     padding: 7px;
+    margin-top: 20px;
     width: 89%;
     border: 2px solid rgb(111, 248, 188);
     border-radius: 20px;
