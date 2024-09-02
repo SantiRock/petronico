@@ -4,10 +4,9 @@ import { fragmentCode } from "../fragment_shaders/fragment_shader1.js";
 
 // Canvas and WebGL context
 
+try {
 const canvas = document.getElementById('canvas_01');
 const gl = canvas.getContext('experimental-webgl');
-
-
 
 // Define geometry and store it in buffer objects
 
@@ -130,3 +129,7 @@ gl.viewport(0, 0, canvas.width, canvas.height);
 
 gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_SHORT, 0);
 
+} catch (e) {
+    canvas.style.backgroundColor = '#0D0D0D';
+
+}
