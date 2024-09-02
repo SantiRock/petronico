@@ -5,7 +5,7 @@ info.addEventListener('click', function (e) {
     const targetElement = document.getElementById('audio_player');
     console.log(targetElement)
 
-    const offsetPosition = targetElement.offsetTop + 45;
+    const offsetPosition = targetElement.offsetTop + 30;
     console.log(offsetPosition);
 
     window.scrollTo({
