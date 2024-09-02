@@ -1,11 +1,12 @@
 import { vertexCode } from "../vertex_shaders/vertex_shader1.js";
 import { fragmentCode } from "../fragment_shaders/fragment_shader1.js";
-import { time } from "../variables/time.js";
+
 
 // Canvas and WebGL context
 
 const canvas = document.getElementById('canvas_01');
 const gl = canvas.getContext('experimental-webgl');
+
 
 
 // Define geometry and store it in buffer objects
@@ -128,6 +129,4 @@ gl.clear(gl.COLOR_BUFFER_BIT);
 gl.viewport(0, 0, canvas.width, canvas.height);
 
 gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_SHORT, 0);
-
-
 
