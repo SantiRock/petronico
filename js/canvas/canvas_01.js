@@ -79,7 +79,7 @@ gl.enableVertexAttribArray(coord);
 
 // Drawing the object
 
-const starTime = Date.now();
+//const starTime = Date.now();
 //time(gl, u_time, starTime);
 
 
